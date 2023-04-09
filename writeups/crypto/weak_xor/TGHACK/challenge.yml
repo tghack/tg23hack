@@ -1,0 +1,34 @@
+# Required sections
+name: "Weak XOR"
+author: "" # funker ikke legg author inn i description
+category: crypto
+description: |
+    Onkel Skrue har bestemt seg for å kryptere koden til pengebingen sin med XOR. Kan du finne koden? 
+Author: Carixo
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - TG23{u51ng_sm4ll_k3y5_15_n0t_4_g00d_1d34}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/output.txt
+    - Uploads/main.py
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

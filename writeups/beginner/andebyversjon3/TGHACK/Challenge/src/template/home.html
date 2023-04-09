@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+  </head>
+  <body>
+    
+    <div class="container mt-5">
+      <h1>Velkommen {{ username }}!</h1>
+      <img class="profile-picture" src="{{ profil_bilde }}" alt="Profile Picture">
+      <p>Her er informasjonen kommunen har lagret om deg:</p>
+      <div class="item-list">
+        {% for description, value in things.items() %}
+          <div class="item">
+            <h2>{{ description }}</h2>
+            <p>{{ value }}</p>
+          </div>
+        {% endfor %}
+      </div>
+
+      <form action="/logout" method="get">
+        <button class="logout-button" type="submit">Logg ut</button>
+      </form>
+    </div>
+  </body>
+</html>

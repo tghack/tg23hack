@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+#nav-div {
+    width: 70%;
+    margin: auto;
+    align-items: center;
+} 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+.logo img {
+    height: 4.5rem;
+}
+
+#navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+#navbar-links li {
+    margin: 0 10px;
+}
+
+#navbar-links a {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 4px 4px;
+    margin: 0px 6px;
+    display: flex;
+    align-items: center;
+}
+
+#navbar-links a:hover {
+    border-bottom: 1px solid #ccc;
+}
+
+#navbar-links a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+.main-div {
+    width: 100%;
+    margin: auto;
+}
+
+.main-div img {
+    width:100%;
+    height: auto;
+    opacity: 60%;
+}
+
+#main-div-container {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+}
+
+#main-div-container-div {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    padding-bottom: 5rem;
+    background-color: rgba(255,255,255,.93);
+}
+
+#main-div-container-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #494949;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+#main-div-container-div ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 1rem;
+    padding: 0;
+}
+
+#main-div-container-div li {
+    flex: 1;
+    display: block;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.25rem;
+    padding-right: 5rem;
+    padding-top: 0.25rem;
+    border-bottom: 1px solid #ccc;
+
+}
+
+#main-div-container-div li:hover {
+    background-color: white;
+}
+
+#main-div-container-div a {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    margin-left: 0.6rem;
+    color: #333;
+}
+
+.search-container {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+  
+
+  .search-container input[type="text"] {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    background-color: white;
+    padding-left: 1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 1.5rem;
+  }
+
+  
+  .image-button {
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  .image-button img {
+    width: 1.2rem;
+    height: auto;
+    padding-right: 0.3rem;
+    padding-top: 0.3rem;
+  }
+
+  .image-button:hover img {
+    content: url("search_green.png");
+    width: 1.2rem;
+    height: auto;
+    padding-right: 0.3rem;
+    padding-top: 0.3rem;
+  }
+
+footer{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+	text-align: center;
+}
+
+.footer-div p {
+    font-family: "Roboto", sans-serif;
+    color: black;
+}

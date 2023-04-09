@@ -1,0 +1,8 @@
+services:
+  web:
+    build:
+      context: ./Challenge/
+      dockerfile: Dockerfile
+    ports:
+      - "80:5000"
+

@@ -1,0 +1,21 @@
+name: "LHKFFKLF #5"
+author: "Thhethssmuz"
+category: coding
+description: "#5"
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{mennesker_har_heller_ikke_god_hørrsel}
+connection_info: "http://lhkffklf.chall.tghack.no/5"
+
+tags:
+   - coding
+   - web
+
+state: visible
+version: "0.1"

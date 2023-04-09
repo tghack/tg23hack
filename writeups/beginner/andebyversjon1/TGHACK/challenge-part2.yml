@@ -1,0 +1,28 @@
+# Required sections
+name: "Andeby Web v1.0 - Del 2"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: >
+    I en annen bekymringsmelding fikk vi et bilde av en safari. Usikker på hva dette har med sikkerhet å gjøre. Kan du ta en titt på nettsiden for å se om du skjønner noe av dette?
+
+    Link: ``https://andebyversjon1.chall.tghack.no``
+
+    Author: marie
+
+value: 350
+type: standard
+flags:
+    - TG23{chewy_cookies_are_the_best}
+connection_info: "https://andebyversjon1.chall.tghack.no"
+
+tags:
+    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+state: visible
+version: "0.1"

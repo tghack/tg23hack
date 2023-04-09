@@ -1,0 +1,19 @@
+# Required sections
+name: "Musikk med Dj Donald 3"
+category: afk
+description: |
+  Dj Donald har sluppet sin først symfony, men i full beethoven stil kan den
+  kun leses og ikke høres.
+
+  author: "thhethssmuz & Isoporhode"
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{dj_beethoven_duck}
+state: visible
+version: "0.1"

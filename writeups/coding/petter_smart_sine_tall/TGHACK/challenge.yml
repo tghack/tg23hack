@@ -1,0 +1,41 @@
+# Required sections
+name: "Petter Smart sine tall"
+author: "" # funker ikke legg author inn i description
+category: coding
+description: |
+    Petter Smart har bedt deg om å gå ut i boden hans for å telle alle bildene av bokstaver og tall han har der. 
+    Han har desverre ikke lablet bildene, men har allere en hel haug i huset sitt som du kan titte på for å lære deg hvordan du skal lable de resterende.
+    De han har i huset finner du i dokumentet train.csv. Der representerer første kollone et tall som mappes til et tall i mapping.txt, mens resten av raden representerer et 28x28 bilde.
+    test.csv er boden til Petter, her har han ikke lablene i første kolonne, så disse må du finne selv. Hver rad her er hvert sitt 28x28 bilde av et tall eller en bokstav.
+    Han sa også noe i farta om at 7 egentlig er { og 8 er } mens 9 representerer _. 
+    Får du til å telle alle tallene og bokstavene til Petter?
+
+    Author: Isoporhode
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{AI_NDEBY}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/mapping.txt
+    - Uploads/test.csv
+    - Uploads/train.csv
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

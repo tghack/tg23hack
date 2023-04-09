@@ -1,0 +1,38 @@
+# Required sections
+name: "quality_control_inspection"
+author: "" # funker ikke legg author inn i description
+category: misc
+description: |
+    Ole, Dole og Doffen har vært på loftet til Donald og lett etter noe fra hans karriere som DJ.
+
+    Etter mye roting i my kvakksalve, så kommer de over en Vinylplate med en uleselig tittel på.
+
+    De prøver å spille den av men de skjønner ikke helt hva slags tekst eller Klang donal har satt sammen her.
+    Har du/dere muligheten til å kikke på hva DJ Donald har prøvd seg på og komme tilbake med en konklusjon.
+
+    Author: hx
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{NO_SCARY_MESSAGES_ARE_IN_THE_REVERSE}
+    - TG23{no_scary_messages_are_in_the_reverse}
+
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/audio.ogg
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

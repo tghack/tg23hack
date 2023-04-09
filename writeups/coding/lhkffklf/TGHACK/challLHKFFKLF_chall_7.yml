@@ -1,0 +1,21 @@
+name: "LHKFFKLF #7"
+author: "Thhethssmuz"
+category: coding
+description: "#7"
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{hold_deg_unna_jeg_kan_regulære_utrykk}
+connection_info: "http://lhkffklf.chall.tghack.no/7"
+
+tags:
+   - coding
+   - web
+
+state: visible
+version: "0.1"

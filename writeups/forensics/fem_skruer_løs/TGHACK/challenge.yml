@@ -1,0 +1,42 @@
+# Required sections
+name: "fem_skruer_løs"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    Advarsel: Det er ikke anbefalt å kjøre programmet utenfor den virtuelle maskinen.
+
+    Det var flere programmer ja!
+    På tide å finne ut av hva denne driver med.
+    Skrue sier noen av filene hans er blitt endret.
+    Kanskje programmet leter etter noen spesifikke filnavn?
+
+    Lever flagget slik: TG23{filnavn}
+
+    Author: Kritt
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{passord.txt}
+    - TG23{passord}
+
+tags:
+    - Windows
+    - Forensics
+    - Reversing
+
+hints:
+    - Programmet du skal analysere er en .exe, og kan være vanskelig å skjønne seg på. Kanskje det finnes noen programmer som gjør det om fra .exe til noe mer leselig format?
+
+requirements:
+    - "en_skrue_løs"
+    - "to_skruer_løs"
+    - "tre_skruer_løs"
+    - "fire_skruer_løs"
+
+state: visible
+version: "0.1"

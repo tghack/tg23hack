@@ -1,0 +1,56 @@
+Disassembly of __init__:
+  3           0 BUILD_LIST               0
+              2 LOAD_FAST                0 (self)
+              4 STORE_ATTR               0 (FLAG)
+              6 LOAD_CONST               0 (None)
+              8 RETURN_VALUE
+
+Disassembly of check_flag:
+  5           0 LOAD_GLOBAL              0 (isinstance)
+              2 LOAD_FAST                1 (user_flag)
+              4 LOAD_GLOBAL              1 (str)
+              6 CALL_FUNCTION            2
+              8 POP_JUMP_IF_FALSE        9 (to 18)
+
+  6          10 LOAD_FAST                1 (user_flag)
+             12 LOAD_METHOD              2 (encode)
+             14 CALL_METHOD              0
+             16 STORE_FAST               1 (user_flag)
+
+  7     >>   18 LOAD_GLOBAL              3 (zip)
+             20 LOAD_FAST                1 (user_flag)
+             22 LOAD_FAST                0 (self)
+             24 LOAD_ATTR                4 (FLAG)
+             26 CALL_FUNCTION            2
+             28 GET_ITER
+        >>   30 FOR_ITER                13 (to 58)
+             32 UNPACK_SEQUENCE          2
+             34 STORE_FAST               2 (a)
+             36 STORE_FAST               3 (b)
+
+  8          38 LOAD_GLOBAL              5 (enc)
+             40 LOAD_FAST                2 (a)
+             42 CALL_FUNCTION            1
+             44 LOAD_FAST                3 (b)
+             46 COMPARE_OP               2 (==)
+             48 POP_JUMP_IF_FALSE       26 (to 52)
+             50 JUMP_ABSOLUTE           15 (to 30)
+
+  9     >>   52 POP_TOP
+             54 LOAD_CONST               1 (False)
+             56 RETURN_VALUE
+
+ 10     >>   58 LOAD_CONST               2 (True)
+             60 RETURN_VALUE
+
+Disassembly of enc:
+ 12           0 LOAD_FAST                0 (c)
+              2 LOAD_CONST               1 (19)
+              4 BINARY_XOR
+              6 LOAD_FAST                0 (c)
+              8 LOAD_CONST               2 (55)
+             10 BINARY_XOR
+             12 LOAD_CONST               3 (15)
+             14 BINARY_AND
+             16 BINARY_LSHIFT
+             18 RETURN_VALUE

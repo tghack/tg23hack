@@ -1,0 +1,30 @@
+# Required sections
+name: "Musikk med DJ Donald"
+author: "" # funker ikke legg author inn i description
+category: misc
+description: |
+    Donald har begynt i sin nye jobb som musikkprodusent og tjener gode penger på det, men en dag fant Donald et spøkelsestrack i sin kule tune etter å ha blitt forstyrret av Ole, Dole og Doffen som kastet møkk på veggene. Hva kan det være? Donald eksporterte en tidligere versjon bare minutter før det skjedde. Kan du finne ut hva det er?
+
+    Flaggformat: TG23{Tekst_med_understreker}
+
+    Author(s): Isoporhode, AresDiode
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{scrooge_mc_morse}
+    - TG23{Scrooge_Mc_Morse}
+    - TG23{SCROOGE_MC_MORSE}
+    - TG23{Scrooge_mc_morse}
+
+
+files:
+    - Uploads/Før.wav
+    - Uploads/Etter.wav
+
+
+state: visible
+version: "0.1"

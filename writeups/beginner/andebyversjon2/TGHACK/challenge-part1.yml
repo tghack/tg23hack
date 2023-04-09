@@ -1,0 +1,32 @@
+# Required sections
+name: "Andeby Web v2.0 - Del 1"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: |
+    Endelig er versjon 2 av Andeby kommunes nettside her! I denne versjonen har vi rettet opp alle sikkerhetshull som ble funnet i versjon 1 og i tillegg gitt designet en aldri så liten overhaling. Vi har også fått oss en ny logo. Denne er inspirert av selveste Onkel Skrue. 
+
+    Nok en gang har vi fått noen bekymringsmeldinger angående sikkerheten til nettsiden. Håper du har tid til å se på det.
+
+    I første bekymringsmelding fikk vi et bilde av Petter Smarts Lille Hjelper, med bildeteksten: "Whirrrrr, clank clank, beep beep, bloop bloop."
+
+    Link: ``https://andebyversjon2.chall.tghack.no``
+
+    Author: marie
+
+value: 350
+type: standard
+flags:
+    - TG23{there_are_hidden_ducks_on_the_website}
+connection_info: "https://andebyversjon2.chall.tghack.no"
+
+tags:
+    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+state: visible
+version: "0.1"

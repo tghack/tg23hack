@@ -1,0 +1,29 @@
+# Required sections
+name: "passord"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: |
+    Vi fanget opp denne filen mens den var på vei fra B-Gjengens mor til selveste B-Gjengen. Vi tror den kan inneholde viktig informasjon om B-Gjengens adferdsmønster. Finn ut hva filen gjør og rapportér tilbake!
+
+    Author: marie
+
+value: 350
+type: standard
+flags:
+    - TG23{always_be_forgetting}
+
+tags:
+    - reversing
+
+files:
+    - Uploads/passord
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

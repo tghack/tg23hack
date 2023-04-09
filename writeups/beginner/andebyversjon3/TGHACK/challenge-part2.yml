@@ -1,0 +1,29 @@
+# Required sections
+name: "Andeby Web v3.0 - Del 2"
+author: "" # funker ikke legg author inn i description
+category: web
+description: >
+    Håper du fikk logget inn. Er det ikke kult å se hva slags informasjon vi har planer å lagre om inbyggerne våre? Vi bryr oss litt om personvern da, så det skal ikke være mulig å se andre innbyggeres informasjon.
+
+    Link: ``https://andebyversjon3.chall.tghack.no``
+
+    Author: marie
+
+value: 400
+type: standard
+flags:
+    - TG23{hogwilde_hogging_the_flagg}
+connection_info: "https://andebyversjon3.chall.tghack.no"
+
+tags:
+    - web
+
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+state: visible
+version: "0.1"

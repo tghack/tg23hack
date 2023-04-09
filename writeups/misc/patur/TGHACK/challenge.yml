@@ -1,0 +1,41 @@
+# Required sections
+name: "På tur"
+author: "" # funker ikke legg author inn i description
+category: misc
+description: |
+    Ole, Dole og Doffen har ikke fått dra på tur denne vinteren, og etter mye om og men har de dratt av gårde helt på egenhånd. 
+    De var dermiot greie mot Donald og la igjen en litt stor papirbit med noen tall på som forteller noe om hvor de er på vei.
+
+
+    Greier du synse noe ut av tallene og finne ut hvor pøblene er på vei ? 
+
+
+    TG23{by_små_bokstaver}
+
+    Author: Solli
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{kristiansand}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/notat.txt
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

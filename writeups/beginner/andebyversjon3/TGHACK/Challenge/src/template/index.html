@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andeby kommune</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+        <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="nav-div">
+            <nav>
+                <div class="logo">
+                  <a href="#"><img src="{{ url_for('static', filename='andeby_kommune.png') }}" alt="Andeby kommune logo"></a>
+                </div>
+                <ul id="navbar-links">
+                  <li><a href="#">Skole og utdanning</a></li>
+                  <li><a href="#">Bolig og fritid</a></li>
+                  <li><a href="#">Kontakt oss</a></li>
+                  <li><a href="{{ url_for('login') }}">Logg inn</a></li>
+                  <li><a href="{{ url_for('search') }}"><img src="{{ url_for('static', filename='search.png') }}"> Søk</a></li>
+                </ul>
+              </nav>
+        </div>
+        <div class="main-div">
+            <div id="main-div-container">
+                <img src="{{ url_for('static', filename='duckburg.png') }}" alt="Andeby kommune logo"/>
+                <div id="main-div-container-div">
+                    <h1>Hva vil du gjøre?</h1>
+                    <ul>
+                        <li><a href="#">Info om den kommende influensa sesongen</a></li>
+                        <li><a href="#" onclick="fetch('/get_info').then(response => response.json()).then(data => alert(data.message)); return false;">Vaksine mot fugleinfluensa</a></li>
+                        <li><a href="#">Fugletrekk: våre anbefalinger</a></li>
+                    </ul>
+                    <form method="POST" action="/search">
+                        <div class="search-container">
+                            <input type="text" name="search" placeholder="Søk">
+                            <button class="image-button" type="submit"><img src="/static/search.png" alt="søk"></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-div">
+                    <p>&copy; 2023 Andeby kommune. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

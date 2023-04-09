@@ -1,0 +1,40 @@
+# Required sections
+name: "fire_skruer_løs"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    Advarsel: Det er ikke anbefalt å kjøre programmet utenfor den virtuelle maskinen.
+
+    Programmet vil antagelig i fremtiden forsøke å legge seg i registeret.
+    Men Skrue hadde opplevd at også filene hans endret seg.
+    Kan du finne flere programmer på datamaskinen som kan påvirker filsystemet til Skrue på uønskede måter?
+
+    Lever flagget slik: TG23{programnavn}
+
+
+    Author: Kritt
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{waddle}
+    - TG23{waddle.exe}
+
+tags:
+    - Windows
+    - Forensics
+
+hints:
+    - Kanskje det ligger noe mer de stedene du allerede har vært innom?
+
+requirements:
+    - "en_skrue_løs"
+    - "to_skruer_løs"
+    - "tre_skruer_løs"
+
+state: visible
+version: "0.1"

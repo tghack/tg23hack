@@ -1,0 +1,38 @@
+# Required sections
+name: "Borte for alltid"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    Onkel Skrue, den berømte eventyreren, dro ut på en farlig ekspedisjon og kom aldri tilbake. Før han forsvant sendte han en e-post til Donald Duck. Dagboken til Onkel Skrue er vedlagt i e-posten og vi vet den har verdifull informasjon om hans oppdagelser og hemmeligheter.
+
+    Dessverre er dagboken kryptert med AES-ECB og vi har ikke nøkkelen til å låse den opp. Det er også et bilde vedlagt i e-posten som kan hjelpe.
+
+    Kan du hjelpe oss med å avdekke hemmeligheten skjult i dagboken hans?
+
+    Author: Carixo
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{n3w_4dv3n7ur35_4h34d!}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/email.eml
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

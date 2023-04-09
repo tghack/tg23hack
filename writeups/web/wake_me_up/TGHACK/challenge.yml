@@ -1,0 +1,33 @@
+# Required sections
+name: "Wake Me Up Before You Go-Go"
+author: "" # funker ikke legg author inn i description
+category: web
+description: |
+    Donald Duck eeeelsker Wham!
+Author: Carixo
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+  - TG23{y0u_d1d_n0t_w4k3_m3_up}
+connection_info: "https://wakemeup.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

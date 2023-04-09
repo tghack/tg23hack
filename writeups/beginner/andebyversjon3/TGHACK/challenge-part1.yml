@@ -1,0 +1,35 @@
+# Required sections
+name: "Andeby Web v3.0 - Del 1"
+author: "" # funker ikke legg author inn i description
+category: web
+description: >
+    Nå nærmer vi oss en nydelig nettside! Endelig har vi fått på plass en logg inn funksjon. Det går dog ikke an å registrere seg på noe vis. Men om du vil ta en liten titt på hvordan det ser ut når du er logget in kan du bruke en av test brukerne våre:
+
+        username: generic-duck
+        password: 
+
+    Hmmmmmm jeg har glemt passordet... Jeg er helt sikker på at jeg hadde det her et sted... 
+
+    Kanskje du finner det?
+
+    Link: ``https://andebyversjon3.chall.tghack.no``
+
+    Author: marie
+
+value: 250
+type: standard
+flags:
+    - TG23{remember_to_vaccinate_kids}
+connection_info: "https://andebyversjon3.chall.tghack.no"
+
+tags:
+    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+state: visible
+version: "0.1"

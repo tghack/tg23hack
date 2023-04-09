@@ -1,0 +1,36 @@
+# Required sections
+name: "Phishing forsøk"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: | 
+    Onkel Skrue motokk en e-post som hevdet å værre fra Andeby Kommune. Vedlagt i eposten var et mistenkelig Word dokument. Det er foreløpig ukjent hvem som har sendt dokumentet, og vi trenger at du undersøker for å finne ut hvem som er ansvarlig og eventuelt hva dokumentet inneholder.
+
+    Author: AresDiode
+
+    NB! Det er ikkke noe farlig i dokkumentet, men det er høyt sannsynig at et antivirus vil reagere på det, selv om det er helt trygt.
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{Office_macros_3r_b4ck_in_busin355}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/Tilbakebetaling.docm
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

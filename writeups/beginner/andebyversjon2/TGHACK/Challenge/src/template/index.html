@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andeby kommune</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+        <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="nav-div">
+            <nav>
+                <div class="logo">
+                  <a href="#"><img src="{{ url_for('static', filename='andeby_kommune.png') }}" alt="Andeby kommune logo"></a>
+                </div>
+                <!--TODO: De fungerer fremdeles ikke -->
+                <ul>
+                  <li><a href="#">Skole og utdanning</a></li>
+                  <li><a href="#">Bolig og fritid</a></li>
+                  <li><a href="#">Parkering</a></li>
+                  <li><a href="#">Kontakt oss</a></li>
+                </ul>
+              </nav>
+        </div>
+        <div class="main-div">
+            <h2>Velkommen til Andeby kommunes nettside!</h2>
+            <p>Vi er ikke helt enige om designet enda. Så i denne versjonen velger vi å hedre personen bak dette initiativet, nemlig Onkel Skrue!</p>
+            <div class="main-div-img-div">
+                <img src="static/ducks/?name=onkel_skrue.png" alt="Onkel Skrue" class="duck-image">
+            </div>
+            <p>Onkel Skrue står bak finansieringen av denne nettsiden. Vi håper han synes pengene var verdt det.</p>
+            <footer>
+                <div class="footer-div">
+                    <p>&copy; 2023 Andeby kommune. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

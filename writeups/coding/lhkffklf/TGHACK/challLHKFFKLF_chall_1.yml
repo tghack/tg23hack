@@ -1,0 +1,26 @@
+name: "LHKFFKLF #1"
+author: "Thhethssmuz"
+category: coding
+description: >
+  Lille Hjelper er lei av forskjellige ikke-kybernetiske enheter som troller
+  forumet hans, så han prøvde å lage en omvendt captcha for å låse dem ute. Som
+  en kybernetisk enhet selv fant han imidlertid at alle metodene var trivielle,
+  og derfor har han vervet deg, et menneske, til å trollsikre nettstedet hans.
+
+  Author: Thhethssmuz
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{mennesker_er_ikke_gode_i_hoderegning}
+connection_info: "http://lhkffklf.chall.tghack.no/1"
+
+tags:
+   - coding
+   - web
+
+state: visible
+version: "0.1"

@@ -1,0 +1,62 @@
+# Required sections
+name: "Flagg-server"
+author: "" # funker ikke legg author inn i description
+category: pwn
+description: |
+    B-Gjengen, og har utviklet et hemmelig verktøy for å levere denne informasjonen på en trygg måte. Systemet fungerer ved at Guttene kan koble til Serveren, gi en krypteringsnøkkel for å beskytte kommunikasjonen, og hente ut et flagg. Flagget blir bare levert ut dersom du kobler til fra riktig IP.
+    Vi har fått tak i flagg-serveren, kan du ekstrahere flagget?
+    ## Hvordan snakke med serveren
+    Du kan snakke med den f.eks ved hjelp av telnet-programmet på unix.
+
+    Serveren har følgende kommandoer:
+    ```
+    > HELP
+    B-gjengen safe flag fetcher 2000 help
+        PING - Returns PONG
+        HELP - Returns B-gjengen safe flag fetcher 2000 help
+        FLAG - Safely returns a flag
+        ENCRYPT [pubkey] - Allows you to specify a public key.
+    ```
+    Ved å kjøre FLAG-kommandoen kan du hente ut flagget, dersom du kommer fra riktig IP. Desverre gjør du ikke det, så du må finne en annen måte å få det ut.
+    For å unngå at flaggene blir overvåket, bruker B-gjengen ENCRYPT før flagget hentes ut. ENCRYPT-kommandoen lar deg gi en RSA 2048-bit offentlig nøkkel i OpenSSL PEM-format, uten `-----BEGIN PUBLIC KEY-----` og `-----END PUBLIC KEY-----`, på en linje. Etter at denne kommandoen er kjørt, vil alle meldinger fra serveren være kryptert og sendt til deg som base64. Eksempel:
+    ```
+    > HELP
+    B-gjengen safe flag fetcher 2000 help
+        PING - Returns PONG
+        HELP - Returns B-gjengen safe flag fetcher 2000 help
+        FLAG - Safely returns a flag
+        ENCRYPT [pubkey] - Allows you to specify a public key.
+    > ENCRYPT MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuIkSVhBVI1EYMAVJFdeqn3fiWRBFHWTI9VHx59diFhhZ3pVbd1TnVYvXkXL22norxoll6hjnZVrjdJIFg0j6e2iB9LtrTGdBAA6bs8+xsmhXPOAdLs5ncO5jD8Y5f5EcdN0ZN9kX1jqOk6NHrxekKYPDIOWlYVgWpFLLpm4Dm/FEkWfhqVWqg0PW03LVWqFKbRNVgFROEBq4dWPEv5vNGVEG5asCVYMuCgEugB5INP5EfTvxWL6B0RcgvG8/E7P4xbe6CwEPCXhQdpV3Mhyyn+VdCJQNtoP1NGU+m+9FX03RW0/jYvd7EvbYMTmKNwAHTCAbkLNS6Dqt2n+4ZKIFpwIDAQAB
+    Encrypted response: dkYJWgK5XaDdC1f73lxgFdYYXVjOLTmOH/Xqesp6s4mIuX+SAaG/JWf1HSat95jE5snF93jgbIXIyBHz4vKjKHBypVpSXkbpsJa+Gq44YhZYU0fb8YKZ5wYbESz3jZjFpY2BqsQe3d0biil0WAcBAZZU+hKnxDyWHI5Ngwlb+GEnMLNl4G3fVVFgix8LFzOcXmK7ZeiKcxE7QTQx1aQKMm9ZJe9Ru4DOFGADbte5sswh7ae4D96j1DXYZ8+T2DLqg+tpRETPt3Ba8wUB8XAlt3ItYG5APZFwo9hVjO1rtuLoUcJmGPwiErkzukGVihFgvM7u3Glnhmz0YFEOMpTnRg==
+    > HELP
+    Encrypted response: a8u7Wuk0p8Qzu0EvwP+Gleri5mX/WzXJe/3v9/7vC6GYX9EfUKultaLVg5PexVI3skCIh9eRqBbK0dXuHoeUGRZoInWNVqoyj/boIcHpzH/+XS3Djlpov15lcsJxRpqkyDab0tMewnP038pr4L4Gfwztk2X4ywuys4v9FEHnGctIjjkgEsaXrr60/L81agqQ5Nilur4cO+fIlT4O4mG2btsNJJO5REba3vlC21yzvrmPFKO8/jN4lMCOtV2hYZTQrut61ooowPhLdDWtOxXXyZrNja91ju7/QkRiqJ5vuOyBsMjbXb/ouX+W/t8hIqw2PsH+FFWT/pAyJlBsrxcoDw==
+    > 
+
+    Author: petterroea
+    ```
+value: 1000
+extra:
+    initial: 1000
+    decay: 100
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{345Y_8U7_w17h_4_7w157}
+connection_info: "nc flagg-server.chall.tghack.no 10666"
+
+#tags:
+#    - esoteric
+#    - web
+
+files:
+    - Uploads/binexp
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

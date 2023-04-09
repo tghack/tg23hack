@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="">
+  <title>DuckBurg Bank</title>
+  <link href="/static/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+  <main class="container form-signin w-100 m-auto">
+    <div class="row">
+      <div class="offset-md-3 col-md-6">
+        <form id="login-form" method="post">
+          <img class="mb-4" src="/static/logo.png" alt="" width="400px">
+          <div class="form-floating mb-2">
+            <input type="text" class="form-control" name="username" id="usernameInput" placeholder="Username">
+            <label for="usernameInput">Username</label>
+          </div>
+          <div class="form-floating mb-2">
+            <input type="password" class="form-control" name="password" id="passwordInput" placeholder="Password">
+            <label for="passwordInput">Password</label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+        </form>
+        <div id="login-status" class="mt-4"></div>
+      </div>
+    </div>
+  </main>
+
+  <script type="text/javascript">
+    const form = document.querySelector("#login-form");
+    const pw = "{{pw}}";
+
+    const handleLogin = (e) => {
+        let username = document.querySelector("#usernameInput");
+        let password = document.querySelector("#passwordInput");
+        let loginStatus = document.querySelector("#login-status");
+        if(username.value !== 'scrooge' && password.value !== atob(pw)) {
+          e.preventDefault();
+          loginStatus.innerHTML = `<div class="alert alert-danger">Login failed!`;
+        }
+    };
+
+    form.addEventListener("submit", handleLogin);
+  </script>
+
+
+
+</body>
+
+</html>

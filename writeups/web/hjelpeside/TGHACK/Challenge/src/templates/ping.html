@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="h-100 d-flex align-items-center justify-content-center">
+    <div>
+        <p>Her kan du pinge tjenester for å sjekke om de er oppe! Dessverre støtter vi bare loopback IPer enn så lenge..</p>
+        <form action="{{url_for('ping_side')}}" method="POST">
+            <div class="form-group">
+                <label for="host" class="form-label">Tekst:</label>
+                <textarea class="form-control" type="input" style="width: 500px; height: 300px; resize: none;" id="host" name="host"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success btn-md" name="action" value="ping">Ping</button>
+        </form>
+        <div class="mb-3">
+            <label for="result" class="form-label">Resultat:</label>
+            <textarea class="form-control" id="result" name="result" style="width: 500px; height: 300px; resize: none;" readonly>{{ result }}</textarea>
+        </div>
+    </div>
+</div>
+{% endblock %}

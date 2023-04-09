@@ -1,0 +1,25 @@
+# Required sections
+name: "Jakten på kodene"
+author: "" # funker ikke legg author inn i description
+category: afk
+description: |
+    Det er gjemt forskjellige "Barcodes" i skipet, kan du dekode dem og finne flagget
+
+    Author: AresDiode
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{@ll_th3_C0d3s}
+    - TG23{@11_th3_c0d3s}
+    - TG23{@ll_th3_COd3s}
+    - TG23{@ll_th3_cod3s}
+
+hints:
+    - When the wind blows from the south, look to the right and you shall find your way!
+
+state: visible
+version: "0.1"

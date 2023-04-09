@@ -1,0 +1,27 @@
+# Required sections
+name: "Skrues Jakt Del 2"
+author: "" # funker ikke legg author inn i description
+category: osint
+description: |
+    Onkel Skrue hadde lett intenst etter de unge andunge-brødrene Ole, Dole og Doffen. Etter å ha fulgt sporene deres fra Andeby, hadde Skrue endelig funnet et spor av guttene. Han hadde funnet et bilde av et gatekunstverk som han umiddelbart gjenkjente som brødrenes verk. Men til tross for sin lange erfaring og dedikasjon, klarer ikke Skrue å finne ut hvor dette kunstverket befinner seg.
+    ![smd](https://imgur.com/zmSnQwR)
+    Author: Stuk
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - TG23{toolbar_spotted_filled}
+
+files:
+    - Uploads/smd.png
+
+
+requirements:
+    - "Skrues Jakt Del 1"
+
+
+state: visible
+version: "0.1"

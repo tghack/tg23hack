@@ -1,0 +1,39 @@
+# Required sections
+name: "seks_skruer_løs"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    Ånei, dette ser ikke bra ut.
+    Skrue med så mye penger har sikkert et langt passord han har skrevet ned i passord.txt.
+    Kan du finne filen, og se om du greier å fikse skaden som er skjedd?
+
+    Author: Kritt
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{verdensRikesteMann12K}
+ 
+tags:
+    - Windows
+    - Forensics
+    - Reversing
+    - Crypto
+
+hints:
+    - Kanskje et annet verktøy i samlingen til Mark Russinovich kan monitorere det programmet gjør under kjøring? 
+    - Hva skjer om du selv lager en passord.txt fil?
+
+requirements:
+    - "en_skrue_løs"
+    - "to_skruer_løs"
+    - "tre_skruer_løs"
+    - "fire_skruer_løs"
+    - "fem_skruer_løs"
+
+state: visible
+version: "0.1"

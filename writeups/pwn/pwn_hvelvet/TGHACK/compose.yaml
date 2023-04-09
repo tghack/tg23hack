@@ -1,0 +1,7 @@
+services:
+    pwn:
+        build:
+            context: ./Challenge/
+            dockerfile: Dockerfile
+        ports:
+            - "1337:1337"

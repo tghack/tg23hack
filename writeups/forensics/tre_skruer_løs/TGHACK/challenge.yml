@@ -1,0 +1,32 @@
+# Required sections
+name: "tre_skruer_løs"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    Godt jobbet med å finne programmet i task scheduler!
+    Den benytter tjenester i windows for å sikre kontinuerlig kjøring.
+    Fra beskrivelsen av tasken hintes det om noe i registeret, kan du sjekke ut det?
+
+    Author: Kritt
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{duck_1_run_3r_574ndh4f716}
+
+tags:
+    - Windows
+    - Forensics
+
+hints:
+    - Programmet ønsker å sikre kjøring, er det noen steder i det nevnte registeret som er naturlig å plassere programmer som ønsker å kjøre?
+
+requirements:
+    - "en_skrue_løs"
+    - "to_skruer_løs"
+
+state: visible
+version: "0.1"

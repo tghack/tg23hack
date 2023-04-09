@@ -1,0 +1,27 @@
+name: "Duckburg Bank #1"
+author: "NorskFjellGeit#9620"
+category: web
+description: >
+    Scrooge McDuck's money is at the Duckburg Bank.
+
+    But what is the password?
+
+    Link: ``duckburgbank.chall.tghack.no``
+
+    Author: NorskFjellGeit
+type: dynamic
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+flags:
+    - TG23{everything_in_the_bank_is_mine}
+connection_info: "http://duckburg-bank.chall.tghack.no/"
+tags:
+    - web
+    - stego
+state: visible
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

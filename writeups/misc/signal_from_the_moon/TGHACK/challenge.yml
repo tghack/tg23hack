@@ -1,0 +1,21 @@
+name: "Signal from the Moon"
+author: "NorskFjellGeit#9620"
+category: misc
+description: >
+    There is a strange sound from the moon! Can you hear it?
+
+    Author: NorskFjellGeit#9620
+type: dynamic
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+flags:
+    - TG23{nothing_can_stop_stella_duck}
+files:
+    - Uploads/signal_from_the_moon.wav
+state: visible
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

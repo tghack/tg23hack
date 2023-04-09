@@ -1,0 +1,32 @@
+# Required sections
+name: "Artificial Creativity"
+author: "" # funker ikke legg author inn i description
+category: osint
+description: |
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{cre4tivity_r3pl4c3d_by_4rtificial_cr3ativity}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/main.jpg
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

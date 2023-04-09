@@ -1,0 +1,27 @@
+# Required sections
+name: "El Chapo's Revenge"
+author: "" # funker ikke legg author inn i description
+category: crypto
+description: |
+    Petter Smart sendte meg nylig en melding på FAX om at Lille Hjelper hadde funnet en måte å knekke krypteringen min på.
+    Jeg endret krypteringen min for å være resistent mot slike angrep, og satte opp en nettside for å demonstrere min nye utra-sikre kryptering! Du finner aldri flagget!
+
+
+    Author: Sithis
+
+    https://elchapos-revenge.chall.tghack.no/
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{ch47697_c@n7_54v3_y0u>:3}
+
+files:
+    - Uploads/server.py
+
+
+state: visible
+version: "0.1"

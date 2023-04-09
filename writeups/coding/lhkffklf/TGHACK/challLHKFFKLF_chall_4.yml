@@ -1,0 +1,21 @@
+name: "LHKFFKLF #4"
+author: "Thhethssmuz"
+category: coding
+description: "#4"
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{menneskers_øyne_har_en_dpi_på_170_så_dette_burde_være_umulig}
+connection_info: "http://lhkffklf.chall.tghack.no/4"
+
+tags:
+   - coding
+   - web
+
+state: visible
+version: "0.1"

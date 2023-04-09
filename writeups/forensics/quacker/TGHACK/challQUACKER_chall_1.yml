@@ -1,0 +1,30 @@
+name: "Quacker #1"
+author: "Thhethssmuz"
+category: forensics
+description: |
+    Etter oppkjøpet av det sosiale medieselskapet Quacker befant Skrue McDuck seg
+    blant annet midt i en sikkerhetshendelse. Kan du hjelpe ham med å finne ut hva
+    som skjedde med quacker.com?
+
+    #1: Quacker anda har en uvanlig stillingsbeskrivelse, men hva er den?
+
+    Author: Thhethssmuz
+
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{kvakksalve}
+
+tags:
+   - forensics
+
+files:
+    - Uploads/quacker.pcap
+
+state: visible
+version: "0.1"

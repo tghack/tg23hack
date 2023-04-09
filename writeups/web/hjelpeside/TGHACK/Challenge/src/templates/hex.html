@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="h-100 d-flex align-items-center justify-content-center">
+    <div>
+        <p>Her kan du enkode og dekode tekst til og fra HEX</p>
+        <form action="{{url_for('hex_side')}}" method="POST">
+            <div class="form-group">
+                <label for="hex" class="form-label">Tekst:</label>
+                <textarea class="form-control" type="input" style="width: 500px; height: 300px; resize: none;" id="hex" name="hex"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success btn-md" name="action" value="Kode">Kode</button>
+            <button type="submit" class="btn btn-success btn-md" name="action" value="Dekode">Dekode</button>
+        </form>
+        <div class="mb-3">
+            <label for="result" class="form-label">Resultat:</label>
+            <textarea class="form-control" id="result" name="result" style="width: 500px; height: 300px; resize: none;" readonly>{{ result }}</textarea>
+        </div>
+    </div>
+</div>
+{% endblock %}

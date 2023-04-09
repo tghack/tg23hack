@@ -1,0 +1,34 @@
+# Required sections
+name: "Glemt passord"
+author: "" # funker ikke legg author inn i description
+category: reversing
+description: |
+    Donald har glemt passordet for å logge på som admin, kan du klare å finne det riktige passordet for han?"
+
+    Author: Korzagg
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{god damn classes so messy}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+tags:
+    - lett
+#    - misc
+
+files:
+    - Uploads/glemt_passord
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

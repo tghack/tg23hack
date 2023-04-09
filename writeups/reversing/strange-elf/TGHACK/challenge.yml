@@ -1,0 +1,34 @@
+# Required sections
+name: "strange-elf"
+author: "" # funker ikke legg author inn i description
+category: reversing
+description: |
+    Doffen fant en rar ELF fil på en av serverene til Hakkespettene, han sendte den til Petter Smart,
+    men selv han er forvirret.. Kan du hjelpe de?
+
+    Author: Korzagg
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{why all the debug checks?!}
+#connection_info: ""
+
+tags:
+    - lett
+
+files:
+    - Uploads/strange-elf
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

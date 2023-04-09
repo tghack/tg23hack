@@ -1,0 +1,42 @@
+# Required sections
+name: "åtte_skruer_løs"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    Basert på informasjoen du har kommet frem til nå, så kan vi gjøre en fortløpende attribusjon på skurken som har plantet uønskede programmer på Skrue sin PC.
+    Hvem tror du står bak?
+
+    Obs! Her har du bare 3 forsøk, norsk og engelsk navn godkjennes.
+    Eksempel: TG23{Skrue McDuck} eller TG23{Scrooge McDuck}
+
+    Author: Kritt
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+attempts: 3
+type: dynamic
+flags:
+    - TG23{Nils Nebb}
+    - TG23{Mark Beaks}
+    - TG23{Marcus Beaks}
+    - TG23{Marcus "Mark" Beaks}
+
+tags:
+    - Windows
+    - Forensics
+    - OSINT
+
+hints:
+    - Samle alle artefakter du har funnet, og bruk dine solide kunnskaper om  DuckTales til å finne synderen.
+
+requirements:
+    - "en_skrue_løs"
+    - "to_skruer_løs"
+    - "tre_skruer_løs"
+    - "fire_skruer_løs"
+
+state: visible
+version: "0.1"

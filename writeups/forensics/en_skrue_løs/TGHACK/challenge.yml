@@ -1,0 +1,41 @@
+# Required sections
+name: "en_skrue_løs"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    Advarsel: Det er ikke anbefalt å kjøre noen av programmene utenfor den virtuelle maskinen.
+
+    Datamaskinen til Skrue har oppført seg rart i det siste. Venter man litt dukker det plutselig opp et program han ikke kjenner opphavet til. Han er urolig for at noen skal ta all cryptoen hans, og lurer på om du kan ta en titt.
+
+    Steg 1: Pakk ut og kjør den virtuelle maskinen.
+    Steg 2: Finn ut hvilke argumenter det mystiske programmet kjører med.
+
+    URL: https://situla.bitbit.net/ctfd-uploads/custom_uploads/WinDuck.7z?AWSAccessKeyId=HN9VMVXR4VC5W72I6VEY&Signature=L87uv7i7WUvSF9VYTsVWgmBPSh4%3D&Expires=1681328663
+
+    Author: Kritt
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{4rg_4rg_4rg}
+
+tags:
+    - Windows
+    - Forensics
+
+# files:
+#     - Uploads/WinDuck.7z
+
+hints:
+    - Virtualbox kan brukes for å kjøre virtuelle maskiner
+    - Mark Russinovich er kjent for sine mange verktøy som brukes den dag i dag til å analysere blant annet programmer på windows. Kanskje man kan bruke noen av dem?
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

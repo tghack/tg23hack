@@ -1,0 +1,37 @@
+# Required sections
+name: "Sottaceto"
+author: "" # funker ikke legg author inn i description
+category: reversing
+description: |
+    Snadrik bestilte seg mat, men fikk disse rare greiene istedenfor? 
+
+    Kanskje om han løser dette kan han få seg litt skikkelig mat?"
+
+    Author: Korzagg
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{d1s p1ckl3 b3 w31rd}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+tags:
+    - lett
+#    - misc
+
+files:
+    - Uploads/Sottaceto1.txt
+    - Uploads/Sottaceto2.txt
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

@@ -1,0 +1,33 @@
+# Required sections
+name: "Hjelpeside"
+author: "" # funker ikke legg author inn i description
+category: web
+description: |
+    Ole, Dole og Doffen prøver å lage en hjelpeside for Hakkespettene,
+    kan du se om de har oversett noe? De har lagt et flag i `/flag.txt`
+    i tilfelle du skulle finne noe.
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{Hakkespettene skjønner at XML kan være farlig}
+connection_info: "https://hjelpeside.chall.tghack.no"
+
+tags:
+    - lett
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

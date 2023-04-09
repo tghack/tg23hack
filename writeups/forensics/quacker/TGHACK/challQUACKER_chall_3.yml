@@ -1,0 +1,25 @@
+name: "Quacker #3"
+author: "Thhethssmuz"
+category: forensics
+description: |
+    #3: Hva ligger skjult i filen `hemmelig.txt`?
+
+    Author: Thhethssmuz
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{andemoji}
+
+tags:
+   - forensics
+
+files:
+    - Uploads/quacker.pcap
+
+state: visible
+version: "0.1"

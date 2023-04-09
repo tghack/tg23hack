@@ -1,0 +1,30 @@
+# Required sections
+name: "Skrues Jakt Del 1"
+author: "" # funker ikke legg author inn i description
+category: osint
+description: |
+    Onkel Skrue var bekymret for de unge andunge-brødrene Ole, Dole og Doffen. De hadde blitt mer og mer opptatt av tagging og gatekunst, og Skrue fryktet at de ville bli fanget opp i et farlig miljø.
+
+    Skrue bestemte seg for å ta saken i egne hender og startet en desperat jakt etter de tre brødrene. Han reiste fra gate til gate i Andeby og spurte alle han møtte om de hadde sett dem.
+
+    Til slutt fikk Skrue et tips om at Ole, Dole og Doffen har blandet seg inn i hiphop miljøet, og at de kansje hadde mer informasjon om lokasjonen til de tre brødrene.
+    Ta kontakt med BlazinGoose
+
+    Author: Stuk
+
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - TG23{Spray_paint_kan_redde_onkel_Donald_fra_å_bli_en_narver}
+
+
+hints:
+    - ![clown](https://media.tenor.com/VN_73MpTrRkAAAAS/epic-clown.gif)
+
+
+state: visible
+version: "0.1"

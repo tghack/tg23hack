@@ -1,0 +1,37 @@
+# Required sections
+name: "Norgestur"
+author: "" # funker ikke legg author inn i description
+category: misc
+description: |
+    Nei nå er Ole, Dole og Doffen ute på tur nok en gang og Donald aner ikke hvor de har blitt av!
+    De har lagt igjen en lapp med noen tall på som Donald virkelig ikke skjønner seg på. De sa de skulle på tur i Norge, men det er litt uklart hva det har med tallene å gjøre.
+    Er dette bare et påfunn fra pøbelungene nok en gang, eller har de faktik sagt i fra hvor de er på vei hen? 
+
+    Author: Solli
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{HØNETJØNNHEIA}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/notat.txt
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

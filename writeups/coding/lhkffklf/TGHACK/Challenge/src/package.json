@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "captcha-bypass",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Svein Inge Albrigtsen <thhethssmuz@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Tester er oppskrytt!\"",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cookies": "^0.7.2",
+    "ejs": "^2.6.1",
+    "nnn": "^2.1.3",
+    "pngjs": "^7.0.0",
+    "ws": "^8.12.1"
+  },
+  "license": "MIT"
+}

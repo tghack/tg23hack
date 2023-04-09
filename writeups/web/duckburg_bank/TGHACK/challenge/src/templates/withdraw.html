@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="generator" content="">
+  <title>DuckBurg Bank</title>
+  <link href="/static/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+  <main class="container form-signin w-100 m-auto">
+    <div class="row">
+      <div class="offset-md-3 col-md-6">
+        <img class="mb-4" src="/static/logo.png" alt="" width="400px">
+
+        <div class="card bg-secondary text-white">
+          <div class="card-title h1">Welcome Scrooge McDuck</div>
+          <div class="card-title h3">Account Balance:</div>
+          <div class="card-body">
+            {% if flag != None %}
+              <div class="display-4">{{"$ %.2f"|format(0)}}</div>
+              <code class="p-2 mt-4 bg-white">{{ flag }}</code>
+              <hr />
+              <a href="/static/checking-1998556944019304.png" target="_blank">
+                <img src="/static/checking-1998556944019304.png" width="50%" alt="check"> <br />
+                <button class="btn btn-primary">Get check</button>
+              </a>
+            {% else %}
+              <div class="display-4">{{"$ %.2f"|format(5125436782364.24)}}</div>
+            {% endif %}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

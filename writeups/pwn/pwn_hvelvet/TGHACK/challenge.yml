@@ -1,0 +1,30 @@
+# Required sections
+name: "Hvelvet"
+author: "" # funker ikke legg author inn i description
+category: pwn
+description: "Hvelvet som inneholder Skrues lykketiøring har gått i lås! Kommer du deg forbi sikringen?"
+value: 1000
+extra:
+    initial: 1000
+    decay: 40
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{R0Ping around the v4ult}
+connection_info: "nc hvelvet.chall.tghack.no 10382"
+
+tags:
+    - lett
+
+files:
+    - Uploads/vault
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

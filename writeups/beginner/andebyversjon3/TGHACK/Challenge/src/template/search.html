@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Resultater</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='search.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Resultater</h1>
+
+        <form id="search-form" action="/search" method="POST">
+            <div class="search-container">
+                <input type="text" name="search" required value="{{ search_query }}" placeholder="Søk">
+                <button class="image-button" type="submit"><img src="/static/search.png" alt="søk"></button>
+            </div>
+        </form>
+
+        {% if articles %}
+            <ul class="articles-list">
+                {% for article in articles %}
+                    <li class="article-card">
+                        <div class="article-card-header">
+                            <h2 class="article-card-title">{{ article[1] }}</h2>
+                            <p class="article-card-date">{{ article[3] }}</p>
+                            <p class="article-card-content">{{ article[2] }}</p>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p class="no-results">No articles found.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

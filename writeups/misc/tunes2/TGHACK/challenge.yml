@@ -1,0 +1,30 @@
+# Required sections
+name: "Musikk med DJ Donald 2"
+author: "" # funker ikke legg author inn i description
+category: misc
+description: |
+    Å nei det skjedde igjen! Men denne gangen lagret ikke Donald første versjon. Donald viste sangen til Onkel Skrue for kanskje han er gammel nok til å skjønne hva som foregår. Etter onkel Skrue hørte på sangen et par ganger mens han skrev noen bokstaver, begynte han å le og sa "Jeg er enig". Hva skjønte Onkel Skrue?
+
+    Flagformat: TG23{Tekst_med_understreker}
+    
+    Author(s): Isoporhode, AresDiode
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - {
+        type: "static",
+        content: "TG23{Donald_har_blitt_crazy}",
+        data: "case_insensitive",
+    }
+
+files:
+    - Uploads/Tunes3.wav
+
+
+
+state: visible
+version: "0.1"

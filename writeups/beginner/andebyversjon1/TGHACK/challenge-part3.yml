@@ -1,0 +1,30 @@
+# Required sections
+name: "Andeby Web v1.0 - Del 3"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: >
+    Vi fikk også en bekymringsmelding om at noe grufullt er å finne på nettsiden. Tydeligvis kan dette føre til et dårlig samarbeid mellom oss i kommunen og ordførerer selv.
+
+    Håper du finner ut av det før ordføreren får tak i informasjonen.
+
+    Link: ``https://andebyversjon1.chall.tghack.no``
+
+    Author: marie
+
+value: 300
+type: standard
+flags:
+    - TG23{mayor_hogwilde_has_questionable_fashion_taste}
+connection_info: "https://andebyversjon1.chall.tghack.no"
+
+tags:
+    - web
+
+#files:
+#    - Uploads/intro.js
+
+hints:
+    - I bekymringsmeldingen ble det nevt noe med konsoll hogst. Usikker på hva tre felling har med en nettside å gjøre, og hva en konsoll er for noe.
+
+state: visible
+version: "0.1"

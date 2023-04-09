@@ -1,0 +1,30 @@
+# Required sections
+name: "Andeby Web v2.0 - Del 3"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: >
+    I den siste bekymringsmeldingen kommer det frem at det er gjemt en "dirty secret". Usikker på hva dette betyr. Kanskje utviklerne BG AS har gjemt et hemmeligheten på en secret plass. 
+
+    Finn ut av det og rapporter hva du resultatet av letingen. 
+
+    Link: ``https://andebyversjon2.chall.tghack.no``
+
+    Author: marie
+
+value: 600
+type: standard
+flags:
+    - TG23{we_used_chatgpt_to_create_this_website}
+connection_info: "https://andebyversjon2.chall.tghack.no"
+
+tags:
+    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+state: visible
+version: "0.1"

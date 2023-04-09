@@ -1,0 +1,24 @@
+name: "Quacker #2"
+author: "Thhethssmuz"
+category: forensics
+description: |
+    #2: Dolly Duck bruker en merkelig nettleser, kan du finne ut hvilken?
+
+    Author: Thhethssmuz
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{ie6ftw}
+
+tags:
+   - forensics
+
+files:
+    - Uploads/quacker.pcap
+
+state: visible
+version: "0.1"

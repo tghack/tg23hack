@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: ./Challenge/
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./Challenge/src:/app

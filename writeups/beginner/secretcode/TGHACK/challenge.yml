@@ -1,0 +1,32 @@
+# Required sections
+name: "secret code"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: |
+    Ser ut som B-Gjengen har forsøkt å programzmere et script. Vi er litt usikre på hva scriptet faktisk gjør, men det kan se ut som det krypterer en hemmelig melding. 
+
+    Kanskje du kan finne ut av det? 
+
+    Author: marie
+
+value: 350
+type: standard
+flags:
+    - TG23{34s13r_th4n_1t_l00ks}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+tags:
+    - reversing
+
+files:
+    - Uploads/secret_code.py
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

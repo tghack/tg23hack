@@ -1,0 +1,18 @@
+# Required sections
+name: "IQ Challenge"
+author: "" # funker ikke legg author inn i description
+category: afk
+description: Har du lyst til å teste IQ-en din? Kom bort til TGHack-standen og utfordre hjernen din med IQ-spillet. Spør oss om en utfordring!
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - TG23{Gizmoducks_Geniale_Spill}
+
+
+
+state: visible
+version: "0.1"

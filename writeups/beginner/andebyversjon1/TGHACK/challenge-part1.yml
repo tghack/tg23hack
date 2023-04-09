@@ -1,0 +1,30 @@
+# Required sections
+name: "Andeby Web v1.0 - Del 1"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: >
+    Vi i Andeby kommune annerkjenner at vi er sent ute med å lage vår egen nettside. Vi har dessverre ikke mulighet til å ansette utviklere. Men frykt ikke! Vi har løst problemet ved å outsource utviklingen til den nyopprettede bedriften BG AS.
+
+    Nettsiden har ikke vært oppe så lenge og vi er bare på versjon 1.0, men vi har allerede fått noen bekymringsmeldinger fra Andebys innbyggere. Skal vist være noe sikkerhetsgreier. I en av meldingene fikk vi opplyst at strengt hemmelig informasjon om en av våre initiativer ligger tilgjengelig for alle brukere som vet hvordan man undersøker en nettside. Vi aner ikke hva dette betyr, men kan du (vår nye sikkerhetsekspert) sjekke dette ut?
+
+    Link: ``https://andebyversjon1.chall.tghack.no``
+
+    Author: marie
+
+value: 300
+type: standard
+flags:
+    - TG23{duckburgs_secret_society_resides_under_the_city}
+connection_info: "https://andebyversjon1.chall.tghack.no"
+
+tags:
+    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+state: visible
+version: "0.1"

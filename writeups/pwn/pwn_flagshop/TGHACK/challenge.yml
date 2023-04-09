@@ -1,0 +1,37 @@
+# Required sections
+name: "Flag butikken"
+author: "" # funker ikke legg author inn i description
+category: pwn
+description: |
+    Skrue vil tjene penger på å selge flagg, og har fått Donald til å kode en butikk, 
+    men for sikkerhetens skyld ønsker han at den skal testes først. 
+
+    Finner du noe feil i programmet til Donald?"
+
+    Author: Korzagg
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{Underflow, overflow, all the flows}
+connection_info: "nc flagshop.chall.tghack.no 10000"
+
+tags:
+    - lett
+#    - web
+
+files:
+    - Uploads/butikk
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

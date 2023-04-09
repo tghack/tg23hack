@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #bbb;
+}
+
+.page-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.articles-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.article-card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #bbb;
+}
+
+.article-card-header {
+    flex: 1;
+    padding: 10px;
+}
+
+.article-card-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.article-card-date {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #777;
+}
+
+.article-card-content {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.no-results {
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+.search-container {
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+  }
+  
+
+  .search-container input[type="text"] {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+    width: 50%;
+    background-color: white;
+    padding-left: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 1rem;
+  }
+
+  
+  .image-button {
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+  }
+
+  .image-button img {
+    width: 1.2rem;
+    height: auto;
+    padding-right: 0.3rem;
+    padding-top: 0.3rem;
+  }
+
+  .image-button:hover img {
+    content: url("search_green.png");
+    width: 1.2rem;
+    height: auto;
+    padding-right: 0.3rem;
+    padding-top: 0.3rem;
+  }

@@ -1,0 +1,20 @@
+# Required sections
+name: "Duck Login 2"
+author: "" # funker ikke legg author inn i description
+category: web
+description: |
+    Selv etter at Donald har kommet seg inn på siden sin så er det ting som ikke ser helt riktig ut.
+    Hva søren er det mitt tilfeldige tall er for noe undrer Donald.
+
+    Author: Solli
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{pl0x_g1t_0t}
+connection_info: "https://ducklogin.chall.tghack.no"
+state: visible
+version: "0.1"

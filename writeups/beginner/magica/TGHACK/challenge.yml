@@ -1,0 +1,30 @@
+# Required sections
+name: "magica"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: |
+    Magica fra Tryll har skjult hemmelige meldinger mellom henne og hennes agenter ved bruk av forskjellig enkoding og kryptografi i årevis. Vi har fått tak i en fil som ser ut til å sende en melding til den som kan gi filen korrekt passord. Usikker på hvorfor filen var så enkel å få tak i, men uansett sjekk den ut! Kanskje vi får tak i veldig viktig informasjon mellom henne og hennes agenter, eller kanskje vi kan knekke måten hun enkoder meldingene sine. 
+
+    Author: marie
+
+value: 400
+type: standard
+flags:
+    - TG23{1_l1k3_3nc0d1ng}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+tags:
+    - reversing
+
+files:
+    - Uploads/magica
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

@@ -1,0 +1,29 @@
+# Required sections
+name: "Andeby Web v1.0 - Del 4"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: >
+    Som hele Andeby vet har ikke kommunen midler til å lage denne nye nettsiden. Heldigvis stiller Onkel Skrue med finansiering slik at BG AS kan lage en super nettside! Men, i den siste bekymringsmeldingen fikk vi vite at det står noe informasjon "lagret" på nettsiden som kan føre til at Onkel Skrue trekker finansieringen. Kan du finne denne informasjonen?
+
+    Link: ``https://andebyversjon1.chall.tghack.no``
+
+    Author: marie
+
+
+value: 350
+type: standard
+flags:
+    - TG23{bg_used_scrooge_mcducks_funding_on_candy}
+connection_info: "https://andebyversjon1.chall.tghack.no"
+
+tags:
+    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+state: visible
+version: "0.1"

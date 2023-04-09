@@ -1,0 +1,29 @@
+# Required sections
+name: "Skrues Forretningsimperium"
+author: "" # funker ikke legg author inn i description
+category: osint
+description: |
+    Onkel Skrue, den berømte milliardæren fra Andeby, utvidet sitt forretningsimperium ved å etablere flere nye bedrifter rundt om i verden. Opprinnelig hadde han planlagt å oppkalle disse bedriftene etter sin hjemby Andeby, men han bestemte seg for å bruke et mer internasjonalt navn. Onkel Skrue forsto at et internasjonalt navn, og endringen til et enterprise ville være mer tiltalende og gjenkjennelig for kunder og samarbeidspartnere verden over. 
+
+    Onkel Skrue hadde bestemt seg for at navnet skulle nå de engelsktalende endene.
+
+    Landet der fabrikken ligger, er kjent for sin effektivitet og nøyaktighet.
+    Det nye navnet på fabrikken ville ha en relasjon til Andeby, men det ville være på et annet språk.
+
+    Flagformat: TG23{what_three_words}
+
+    Author: Stuk
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{coach_manages_typical}
+
+hints:
+    - https://what3words.com
+
+state: visible
+version: "0.1"

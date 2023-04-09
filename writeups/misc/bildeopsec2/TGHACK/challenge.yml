@@ -1,0 +1,24 @@
+# Required sections
+name: "bilde-opsec 2"
+author: "" # funker ikke legg author inn i description
+category: misc
+description: |
+    Donald since nevøer har nå fikset opp i sin meldingsutveksling fra "bilde-opsec", og har nå gjort det slik at Donald ikke kan lese meldingene.
+    Alikevel er Donald bestemt på at det er mulig å hente ut noen hemmelige beskjeder herfra, stemmer det?
+
+
+    author: solli
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{dette_finner_nok_ikke_donald} 
+
+files:
+    - Uploads/melding.png
+
+state: visible
+version: "0.1"

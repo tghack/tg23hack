@@ -1,0 +1,19 @@
+# Required sections
+name: "Lockpicking 1"
+author: "" # funker ikke legg author inn i description
+category: afk
+description: |
+    Kom til TGHack standen og prøv lockpicking skillsa dine!
+    Denne oppgaven gjelder de små svarte låsene.
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{ScroogeMcPick}
+
+
+state: visible
+version: "0.1"

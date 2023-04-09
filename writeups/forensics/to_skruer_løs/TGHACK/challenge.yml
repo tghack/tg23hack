@@ -1,0 +1,33 @@
+# Required sections
+name: "to_skruer_løs"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    Det viser seg at det faktisk er noe merkelig på datamaskinen hans! 
+    Dette må etterforskes videre.
+    Hvor er det dette programmet ligger, hva inneholder det, og hvordan greier det å dukke opp hele tiden?
+
+    Author: Kritt
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{duck_m4_0v3rl3v3_duck_må_b357}
+
+tags:
+    - Windows
+    - Forensics
+    - Python
+
+hints:
+    - Kanskje det finnes noe i et av Russinovich sine programmer som viser lokasjon.
+
+requirements:
+    - "en_skrue_løs"
+
+state: visible
+version: "0.1"

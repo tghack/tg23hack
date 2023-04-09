@@ -1,0 +1,25 @@
+# Required sections
+name: "Duck Login 1"
+author: "" # funker ikke legg author inn i description
+category: web
+description: |
+    Donald har lenge hatt bruk for en litt hemmelig side for å lagre passord og div. 
+    Dette har han fått hjelp til å sette opp av Petter Smart, men ting fungerer ikke helt som det skal lenger. 
+    Donald mistenker det har gått noe surr under oppsettet av nettsiden siden han får opp en rar feilmedling etter innlogging.
+
+    Kan du hjelpe Donald få tilgang?
+
+    Donald har følgende bruker:passord på nettsiden> donald:duck
+
+    Author: Solli
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{ar3_u_fr0m_th3_f0t0re}
+connection_info: "https://ducklogin.chall.tghack.no"
+state: visible
+version: "0.1"

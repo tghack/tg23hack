@@ -1,0 +1,23 @@
+# Required sections
+name: "bilde-opsec"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: |
+    I det siste har Donald sine nevøer kommunisert med bilder, og de påstår de har en feilfri måte å kommunisere hemmelige beskjeder på.
+    Derimot har Donald fått tak i en av deres bilder og underer på om det er noe mer som kan gjemme seg i dette bildet. 
+
+    Author: solli
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{skulle_tro_de_ikke_har_hørt_om_sikkerhet}
+
+files:
+    - Uploads/opsec.png
+
+state: visible
+version: "0.1"

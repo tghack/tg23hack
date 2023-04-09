@@ -1,0 +1,36 @@
+# Required sections
+name: "Templating"
+author: "" # funker ikke legg author inn i description
+category: web
+description: |
+    Onkel Skrue hadde alltid vært flink med penger og investeringer, og han hadde nettopp bestemt seg for å begynne å bruke en notat applikasjon for å holde styr på alle sine økonomiske transaksjoner. Han visste at han trengte en pålitelig og sikker app for å sikre at hans sensitive finansielle data ikke ble kompromittert.
+
+    Så han kontaktet en utvikler for å få bygget en skreddersydd notat applikasjon. Han presset utvikleren til å tilby en lav pris og var fornøyd med at han hadde klart å spare litt penger. Men er applikasjonen virkelig så sikker som han tror?
+
+    Author: AresDiode
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{L0nn3r_s3g_ikk3_å_være_gjærrig}
+connection_info: "https://templating.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

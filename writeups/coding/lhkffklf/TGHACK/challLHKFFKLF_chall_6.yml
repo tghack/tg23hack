@@ -1,0 +1,21 @@
+name: "LHKFFKLF #6"
+author: "Thhethssmuz"
+category: coding
+description: "#6"
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{hvor_god_er_menneskers_donald_klassifiserings_algoritme}
+connection_info: "http://lhkffklf.chall.tghack.no/6"
+
+tags:
+   - coding
+   - web
+
+state: visible
+version: "0.1"

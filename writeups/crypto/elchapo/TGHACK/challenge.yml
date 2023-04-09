@@ -1,0 +1,23 @@
+# Required sections
+name: "El Chapo"
+author: "" # funker ikke legg author inn i description
+category: crypto
+description: |
+    Jeg har kryptert flagget med litt artig asymmetrisk kryptering, klarer du å dekryptere det?
+
+    Author: Sithis
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{31_64m41_15_und3rr473d!}
+
+files:
+    - Uploads/challenge.py
+    - Uploads/output.txt
+
+state: visible
+version: "0.1"

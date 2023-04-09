@@ -1,0 +1,28 @@
+# Required sections
+name: "Andeby Web v3.0 - Del 3"
+author: "" # funker ikke legg author inn i description
+category: web
+description: >
+    Sjekk ut de kule artiklene vi har i søke funksjonen. Vi har blant annet en om Vannplanter, denne kan bli nyttig til våren når isen slipper tak i dammene våre!
+
+    Link: ``https://andebyversjon3.chall.tghack.no``
+
+    Author: marie
+
+value: 500
+type: standard
+flags:
+    - TG23{so_many_ducking_articles}
+connection_info: "https://andebyversjon3.chall.tghack.no"
+
+tags:
+    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+state: visible
+version: "0.1"

@@ -1,0 +1,31 @@
+# Required sections
+name: "Andeby Web v2.0 - Del 2"
+author: "" # funker ikke legg author inn i description
+category: beginner
+description: >
+    I design fasen var vi litt usikre på hvilket bilde vi skulle velge. Vi viste at vi ville hedre en and, men hvilken? Vi prøvde ut litt forskjellige bilder, men endte til slutt opp med et bilde av Onkel Skrue fordi han står for finansieringen av nettsiden. 
+    
+    Vi ble litt bekymret da vi fikk en melding om at det er noe som skurrer med bilde på nettsiden. Vi mener at bildet ble veldig fint! Skjønner du hva de mente med denne meldingen?
+
+    Link: ``https://andebyversjon2.chall.tghack.no``
+
+    Author: marie
+
+value: 450
+type: standard
+flags:
+    - TG23{we_got_all_the_ducks}
+    - TG23{WE_GOT_ALL_THE_DUCKS}
+connection_info: "https://andebyversjon2.chall.tghack.no"
+
+tags:
+    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+state: visible
+version: "0.1"

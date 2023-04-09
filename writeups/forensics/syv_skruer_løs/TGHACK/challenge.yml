@@ -1,0 +1,38 @@
+# Required sections
+name: "syv_skruer_løs"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    Som kjent fra [Mitre Attack Rammeverket](https://attack.mitre.org/), er et av de siste stegene i et angrep kommando og kontroll, samt uthenting (extraction).
+    La oss se om programmet prøver å kommunisere med noen.
+
+    Lever flagget slik: TG23{adresse}
+
+    Author: Kritt
+
+value: 1000
+extra:
+    initial: 1000
+    decay: 50
+    minimum: 50
+type: dynamic
+flags:
+    - TG23{185.80.182.122}
+
+tags:
+    - Windows
+    - Forensics
+    - Reversing
+    - Network
+
+hints:
+    - Kanskje det allerede finnes et program på maskinen som fanger opp og gjør det mulig å analysere nettverkspakker?
+
+requirements:
+    - "en_skrue_løs"
+    - "to_skruer_løs"
+    - "tre_skruer_løs"
+    - "fire_skruer_løs"
+
+state: visible
+version: "0.1"
