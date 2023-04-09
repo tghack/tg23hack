@@ -1,1 +1,137 @@
-# tg23hack
+
+# TGHACK 23
+> Writeups and challenges resources for TGHACK23
+
+
+## Table of content
+- [afk](#misc)
+- [beginner](#beginner)
+- [coding](#coding)
+- [crypto](#crypto)
+- [forensics](#forensics)
+- [misc](#misc)
+- [osint](#osint)
+- [pwn](#pwn)
+- [reversing](#reversing)
+- [web](#pwn)
+
+---
+
+## Writeups
+
+### misc
+ - **signal_from_the_moon**
+	 - [TGHACK](/writeups/misc/signal_from_the_moon/TGHACK)  
+ - **tunes2**
+	 - [TGHACK](/writeups/misc/tunes2/TGHACK)  
+ - **tunes**
+	 - [TGHACK](/writeups/misc/tunes/TGHACK)  
+ - **sprakmaskinen**
+	 - [TGHACK](/writeups/misc/sprakmaskinen/TGHACK)  
+ - **bildeopsec2**
+	 - [TGHACK](/writeups/misc/bildeopsec2/TGHACK)  
+ - **patur**
+	 - [TGHACK](/writeups/misc/patur/TGHACK)  
+ - **norgestur**
+	 - [TGHACK](/writeups/misc/norgestur/TGHACK)  
+ - **quality_control_inspection**
+	 - [TGHACK](/writeups/misc/quality_control_inspection/TGHACK)  
+### crypto
+ - **weak_xor**
+	 - [TGHACK](/writeups/crypto/weak_xor/TGHACK)  
+ - **spraak_vansker**
+	 - [TGHACK](/writeups/crypto/spraak_vansker/TGHACK)  
+ - **elchapos_revenge**
+	 - [TGHACK](/writeups/crypto/elchapos_revenge/TGHACK)  
+ - **elchapo**
+	 - [TGHACK](/writeups/crypto/elchapo/TGHACK)  
+### web
+ - **duckburg_bank**
+	 - [TGHACK](/writeups/web/duckburg_bank/TGHACK)  
+ - **templating**
+	 - [TGHACK](/writeups/web/templating/TGHACK)  
+ - **donald-login**
+	 - [TGHACK](/writeups/web/donald-login/TGHACK)  
+ - **wake_me_up**
+	 - [TGHACK](/writeups/web/wake_me_up/TGHACK)  
+ - **hjelpeside**
+	 - [TGHACK](/writeups/web/hjelpeside/TGHACK)  
+### afk
+ - **lock1**
+	 - [TGHACK](/writeups/afk/lock1/TGHACK)  
+ - **notes1**
+	 - [TGHACK](/writeups/afk/notes1/TGHACK)  
+ - **qr**
+	 - [TGHACK](/writeups/afk/qr/TGHACK)  
+ - **lock2**
+	 - [TGHACK](/writeups/afk/lock2/TGHACK)  
+ - **lock3**
+	 - [TGHACK](/writeups/afk/lock3/TGHACK)  
+ - **iq**
+	 - [TGHACK](/writeups/afk/iq/TGHACK)  
+### forensics
+ - **åtte_skruer_løs**
+	 - [TGHACK](/writeups/forensics/åtte_skruer_løs/TGHACK)  
+ - **en_skrue_løs**
+	 - [TGHACK](/writeups/forensics/en_skrue_løs/TGHACK)  
+ - **tre_skruer_løs**
+	 - [TGHACK](/writeups/forensics/tre_skruer_løs/TGHACK)  
+ - **quacker**
+	 - [TGHACK](/writeups/forensics/quacker/TGHACK)  
+ - **fem_skruer_løs**
+	 - [TGHACK](/writeups/forensics/fem_skruer_løs/TGHACK)  
+ - **borte_for_alltid**
+	 - [TGHACK](/writeups/forensics/borte_for_alltid/TGHACK)  
+ - **syv_skruer_løs**
+	 - [TGHACK](/writeups/forensics/syv_skruer_løs/TGHACK)  
+ - **fire_skruer_løs**
+	 - [TGHACK](/writeups/forensics/fire_skruer_løs/TGHACK)  
+ - **phishing**
+	 - [TGHACK](/writeups/forensics/phishing/TGHACK)  
+ - **to_skruer_løs**
+	 - [TGHACK](/writeups/forensics/to_skruer_løs/TGHACK)  
+ - **seks_skruer_løs**
+	 - [TGHACK](/writeups/forensics/seks_skruer_løs/TGHACK)  
+### beginner
+ - **andebyversjon1**
+	 - [TGHACK](/writeups/beginner/andebyversjon1/TGHACK)  
+ - **magica**
+	 - [TGHACK](/writeups/beginner/magica/TGHACK)  
+ - **passord**
+	 - [TGHACK](/writeups/beginner/passord/TGHACK)  
+ - **andebyversjon3**
+	 - [TGHACK](/writeups/beginner/andebyversjon3/TGHACK)  
+ - **andebyversjon2**
+	 - [TGHACK](/writeups/beginner/andebyversjon2/TGHACK)  
+ - **bildemania**
+	 - [TGHACK](/writeups/beginner/bildemania/TGHACK)  
+ - **secretcode**
+	 - [TGHACK](/writeups/beginner/secretcode/TGHACK)  
+### osint
+ - **skrues_jakt_del1**
+	 - [TGHACK](/writeups/osint/skrues_jakt_del1/TGHACK)  
+ - **skrues_jakt_del2**
+	 - [TGHACK](/writeups/osint/skrues_jakt_del2/TGHACK)  
+ - **skrues_forretningsimperium**
+	 - [TGHACK](/writeups/osint/skrues_forretningsimperium/TGHACK)  
+ - **artificial_creativity**
+	 - [TGHACK](/writeups/osint/artificial_creativity/TGHACK)  
+### reversing
+ - **rev_sottaceto**
+	 - [TGHACK](/writeups/reversing/rev_sottaceto/TGHACK)  
+ - **strange-elf**
+	 - [TGHACK](/writeups/reversing/strange-elf/TGHACK)  
+ - **rev_glemt_passord**
+	 - [TGHACK](/writeups/reversing/rev_glemt_passord/TGHACK)  
+### pwn
+ - **pwn_flagshop**
+	 - [TGHACK](/writeups/pwn/pwn_flagshop/TGHACK)  
+ - **flagg-server**
+	 - [TGHACK](/writeups/pwn/flagg-server/TGHACK)  
+ - **pwn_hvelvet**
+	 - [TGHACK](/writeups/pwn/pwn_hvelvet/TGHACK)  
+### coding
+ - **lhkffklf**
+	 - [TGHACK](/writeups/coding/lhkffklf/TGHACK)  
+ - **petter_smart_sine_tall**
+	 - [TGHACK](/writeups/coding/petter_smart_sine_tall/TGHACK)  
