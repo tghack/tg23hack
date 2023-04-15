@@ -4,7 +4,7 @@
 
 
 ## Table of content
-- [afk](#misc)
+- [afk](#afk)
 - [beginner](#beginner)
 - [coding](#coding)
 - [crypto](#crypto)
